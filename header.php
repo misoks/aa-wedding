@@ -16,13 +16,13 @@ function navLink($url, $linktext) {
 <head> 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title><?php echo "$name - Alison & Adam's Wedding"; ?></title>
-        <link rel="stylesheet" type="text/css" href="style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="static/style.css" media="all">
 </head>
     
     <body>
-        <div id="banner"><a href="/"><img src="banner.png" alt="Alison & Adam"></a></div>
-        <img id="static/couple" class="bg" src="couple.jpg">
-        <img id="static/ithaca" class="bg" src="ithaca.jpg">
+        <div id="banner"><a href="/"><img src="static/banner.png" alt="Alison & Adam"></a></div>
+        <img id="couple" class="bg" src="static/couple.jpg">
+        <img id="ithaca" class="bg" src="static/ithaca.jpg">
         <div id="navigation">
             <ul>
             <?php
