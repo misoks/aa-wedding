@@ -21,8 +21,8 @@ function navLink($url, $linktext) {
     
     <body>
         <div id="banner"><a href="/"><img src="banner.png" alt="Alison & Adam"></a></div>
-        <img id="couple" class="bg" src="couple.jpg">
-        <img id="ithaca" class="bg" src="ithaca.jpg">
+        <img id="static/couple" class="bg" src="couple.jpg">
+        <img id="static/ithaca" class="bg" src="ithaca.jpg">
         <div id="navigation">
             <ul>
             <?php
