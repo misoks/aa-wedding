@@ -18,7 +18,7 @@
 </div>
 
 <p>
-If you have any questions, feel free to <a href="mailto:amf257@cornell.edu?subject=Regarding your wedding">
+If you have any questions, feel free to <a href="mailto:fisher.cooper.wedding@gmail.com?subject=Regarding your wedding">
 email us</a>.
 </p>
             

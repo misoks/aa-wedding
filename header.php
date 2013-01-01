@@ -21,15 +21,16 @@ function navLink($url, $linktext) {
     
     <body>
         <div id="banner"><a href="/"><img src="static/banner.png" alt="Alison & Adam"></a></div>
-        <img id="couple" class="bg" src="static/couple.jpg">
-        <img id="ithaca" class="bg" src="static/ithaca.jpg">
+        <div class="bg couple"></div>
+        <div class="bg ithaca"></div>
         <div id="navigation">
             <ul>
             <?php
                 echo "<li>".navLink('index.php', 'Home');
-                echo "<li>".navLink('about-us.php', 'About Us');
+                //echo "<li>".navLink('about-us.php', 'About Us');
                 echo "<li>".navLink('wedding.php', 'Wedding');
                 echo "<li>".navLink('lodging.php', 'Travel & Lodging');
+                echo "<li>".navLink('attractions.php', 'Area Attractions');
                 //echo "<li>".navLink('RSVP.php', 'RSVP');
             ?>
             </ul>

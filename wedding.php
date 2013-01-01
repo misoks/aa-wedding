@@ -5,7 +5,10 @@
             
 <h1>The Wedding</h1>
             
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quam sapien, tristique et sollicitudin at, placerat at ligula. Mauris condimentum purus quis elit rutrum eget luctus est rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed molestie sodales turpis, in eleifend velit ullamcorper fringilla. In eros sapien, blandit sed tincidunt ac, blandit ac est. Ut enim quam, malesuada id dignissim sed, convallis ut nulla. Aliquam rhoncus porttitor sem dictum elementum.</p>            
+<p>The ceremony will take place on the evening of Saturday, June 29th, with a dinner 
+reception immediately following. </p>
+
+<p>More information to come!</p>
 
 <?php
     include_once('footer.php');
