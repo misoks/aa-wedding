@@ -1,5 +1,5 @@
 @font-face {
-	font-family: mission;
+	font-family: Mission;
 	src: url('mission_script.otf');
 }
 body {
@@ -7,8 +7,7 @@ body {
     font-size: 11pt;
     line-height: 1.3em;
     color: #222;
-    background-color: whitesmoke;
-    background-image: url('paper.jpg');
+    background-color: white;
     margin: 0;
     position: relative;
     text-align: center;
@@ -16,7 +15,8 @@ body {
     overflow-x: hidden;
 }
 h1, h2, h3 {
-    font-family: mission;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
     font-weight: normal;
     margin-top: .25em;
     text-align: center;
@@ -26,6 +26,9 @@ h1 {
     border-bottom: 1px dashed #955eb5;
     font-size: 27px;
     line-height: 1em;
+}
+h2 {
+    font-size: 1.5em;
 }
 h1, h2, h3, #navigation li, #navigation a  {
     text-shadow: 2px 2px 1px rgba(255,255,255,0.5);
@@ -43,9 +46,17 @@ a {
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
 }
-img {
-    border: 0px;
+em {
+    font-style: italic;
 }
+img, iframe {
+    border: 0px;
+    max-width: 100%;
+}
+.graphic {
+    text-align: center;
+    max-width: 100%;
+ }
 a:visited {
     color: #8045A3;
 }
@@ -55,26 +66,11 @@ a:hover {
 .selected {
     color: #b4a494;
 }
-#banner {
-    font-size: 6em;
-    text-align: center;
-    color: rgba(200,187,173,.8);
-    text-shadow: 1px 2px 2px rgba(255,255,255,0.5);
-}
-#content {
-    width: 640px;
-    background-color: white;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 2px 2px 5px rgba(0,0,0, 0.2);
-    display: inline-block;
-    text-align: left;
-}
-
 #navigation ul {
     list-style: none;
     margin: 0; padding: 0;
-    font-family: mission;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
     z-index: 10;
     text-align: center;
     display: block;
@@ -90,17 +86,38 @@ a:hover {
 }
 #navigation ul a {
 }
-#ribbon {
-    position: absolute; bottom: 0; right: 0px;
-    width:407px;
-    height: 277px;
-    background-image: url('ribbon.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-}
- .graphic {
+
+@media all and (min-width: 768px) {
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.3em;
+    color: #222;
+    background-color: whitesmoke;
+    background-image: url('paper.jpg');
+    margin: 0;
+    position: relative;
     text-align: center;
- }
+    width: 100%;
+    overflow-x: hidden;
+}
+#banner {
+    font-size: 6em;
+    text-align: center;
+    color: rgba(200,187,173,.8);
+    text-shadow: 1px 2px 2px rgba(255,255,255,0.5);
+}
+#content {
+    width: 640px;
+    background-color: white;
+    border-radius: 10px;
+    behavior: url(border-radius.htc);
+    padding: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.2);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=5);
+    display: inline-block;
+    text-align: left;
+}
  
 #footer {
     padding: 25px;
@@ -109,27 +126,18 @@ a:hover {
 .bg {
     position: absolute;
     z-index: -5;
-    padding: 15px;
-    background-color: white;
-    border: 1px solid rgba(0,0,0,.2);
-    opacity: .6;
-    filter: alpha(opacity = 60);
+    background-repeat: no-repeat;
 }
-#couple {
-    left: 70%; top: 80px;
-    width: 400px; height: auto;
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    transform: rotate(5deg);
+.couple {
+    left: 50%; margin-left: 230px; 
+    top: 80px;
+    width: 471px; height: 395px;
+    background-image: url('couple.png');
 }
-#ithaca {
-    width: 550px; height: auto;
-    right: 60%; top: 350px;
-    -webkit-transform: rotate(-5deg);
-    -moz-transform: rotate(-5deg);
-    -o-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg);
+.ithaca {
+    background-image: url('ithaca.png');
+    right: 50%; margin-right: 150px;
+    width: 633px; height: 464px;
+    top: 350px;
+}
 }
