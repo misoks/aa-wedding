@@ -13,8 +13,6 @@
     The wedding and reception will take place at the 
     <a href="http://www.jjande.com/www.JJandE.com/Home.html">John Joseph Inn and Elizabeth 
     Restaurant</a>, which is approximately a 20-minute drive from downtown Ithaca. 
-    Parking there is limited, so we are planning to organize shuttle service between
-    the inn and Ithaca. More details on that to be announced.
 </p>
 
 <h2>Closest Hotels</h2>

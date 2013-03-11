@@ -13,6 +13,7 @@ body {
     text-align: center;
     width: 100%;
     overflow-x: hidden;
+    background-image: url('ricepaper2.png');
 }
 h1, h2, h3 {
     font-family: 'Times New Roman', Times, serif;
@@ -66,6 +67,14 @@ a:hover {
 .selected {
     color: #b4a494;
 }
+
+.centered {
+    text-align: center;
+}
+
+
+/* Navigation */
+
 #navigation ul {
     list-style: none;
     margin: 0; padding: 0;
@@ -77,67 +86,113 @@ a:hover {
     margin: 15px;
 }
 #navigation li {
-    font-size: 1.6em;
+    font-size: 1.4em;
     text-decoration: none;
-    display: block;
     margin-bottom: 20px;
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
 }
-#navigation ul a {
+
+/* RSVP Page */
+input, textarea {
+    margin: 5px;
 }
+.field {
+    width: 50%;
+}
+.field-email {
+    width: 150px;
+}
+.field-phone {
+    width: 100px;
+}
+.field-child-count {
+    width: 50px;
+} 
+.field-dietary {
+    width: 200px;
+}
+.field-caption {
+    font-size: .65em;
+    color: gray;
+    line-height: .3;
+    margin-left: 5px;
+}
+.label {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: .70em;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333;
+    vertical-align: top;
+    padding-top: 6px;
+    padding-left: 50px;
+} 
+.add-field {
+    cursor: pointer;
+    font-size: .8em;
+}
+.added {
+    content: '-';
+}
+
 
 @media all and (min-width: 768px) {
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 11pt;
-    line-height: 1.3em;
-    color: #222;
-    background-color: whitesmoke;
-    background-image: url('paper.jpg');
-    margin: 0;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    overflow-x: hidden;
-}
-#banner {
-    font-size: 6em;
-    text-align: center;
-    color: rgba(200,187,173,.8);
-    text-shadow: 1px 2px 2px rgba(255,255,255,0.5);
-}
-#content {
-    width: 640px;
-    background-color: white;
-    border-radius: 10px;
-    behavior: url(border-radius.htc);
-    padding: 30px;
-    box-shadow: 2px 2px 5px rgba(0,0,0, 0.2);
-    filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=5);
-    display: inline-block;
-    text-align: left;
-}
- 
-#footer {
-    padding: 25px;
+    body {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 11pt;
+        line-height: 1.3em;
+        color: #222;
+        background-color: whitesmoke;
 
+        margin: 0;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    #banner {
+        font-size: 6em;
+        text-align: center;
+        color: rgba(200,187,173,.8);
+        text-shadow: 1px 2px 2px rgba(255,255,255,0.5);
+    }
+    #content {
+        width: 640px;
+        background-color: white;
+        border-radius: 10px;
+        behavior: url(border-radius.htc);
+        padding: 30px;
+        box-shadow: 2px 2px 5px rgba(0,0,0, 0.2);
+        filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=5);
+        display: inline-block;
+        text-align: left;
+    }
+ 
+    #footer {
+        padding: 25px;
+
+    }
+    .bg {
+        position: absolute;
+        z-index: -5;
+        background-repeat: no-repeat;
+    }
+    .couple {
+        left: 50%; margin-left: 230px; 
+        top: 80px;
+        width: 471px; height: 395px;
+        background-image: url('couple.png');
+    }
+    .ithaca {
+        background-image: url('ithaca.png');
+        right: 50%; margin-right: 150px;
+        width: 633px; height: 464px;
+        top: 350px;
+    }
 }
-.bg {
-    position: absolute;
-    z-index: -5;
-    background-repeat: no-repeat;
-}
-.couple {
-    left: 50%; margin-left: 230px; 
-    top: 80px;
-    width: 471px; height: 395px;
-    background-image: url('couple.png');
-}
-.ithaca {
-    background-image: url('ithaca.png');
-    right: 50%; margin-right: 150px;
-    width: 633px; height: 464px;
-    top: 350px;
-}
+
+.hidden {
+    display: none;
 }
