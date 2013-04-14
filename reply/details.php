@@ -126,7 +126,7 @@
         Dietary Restrictions: $dietary
         Comments: $comments";
     
-        $to = "cathy.a.fisher@gmail.com";            
+        $to = "fisher.cooper.wedding@gmail.com";            
         $from  =  $email;
         $subject = "RSVP from $name1";
     
