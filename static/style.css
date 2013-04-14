@@ -2,197 +2,229 @@
 	font-family: Mission;
 	src: url('mission_script.otf');
 }
+
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 11pt;
-    line-height: 1.3em;
-    color: #222;
-    background-color: white;
-    margin: 0;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    overflow-x: hidden;
-    background-image: url('ricepaper2.png');
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11pt;
+	line-height: 1.3em;
+	color: #222;
+	background-color: white;
+	margin: 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	-ms-overflow-x: hidden;
+	overflow-x: hidden;
+	background-image: url('ricepaper2.png');
 }
-h1, h2, h3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-weight: normal;
-    margin-top: .25em;
-    text-align: center;
+
+h1,h2,h3 {
+	font-family: Mission, 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-weight: normal;
+	margin-top: .25em;
+	text-align: center;
 }
+
 h1 {
-    padding-bottom: 5px;
-    border-bottom: 1px dashed #955eb5;
-    font-size: 27px;
-    line-height: 1em;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #955eb5;
+	font-size: 27px;
+	line-height: 1em;
 }
+
 h2 {
-    font-size: 1.5em;
+	font-size: 1.5em;
 }
-h1, h2, h3, #navigation li, #navigation a  {
-    text-shadow: 2px 2px 1px rgba(255,255,255,0.5);
+
+h1,h2,h3,#navigation li,#navigation a {
+	text-shadow: 2px 2px 1px rgba(255,255,255,0.5);
 }
+
 h4 {
-    font-size: 1em;
-    font-weight: normal;
-    font-style: italic;
+	font-size: 1em;
+	font-weight: normal;
+	font-style: italic;
 }
+
 a {
-    color: #8045A3;
-    font-weight: normal;
-    text-decoration: none;
-    transition: all 1s;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
+	color: #8045A3;
+	font-weight: normal;
+	text-decoration: none;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
 }
+
 em {
-    font-style: italic;
+	font-style: italic;
 }
-img, iframe {
-    border: 0px;
-    max-width: 100%;
+
+img,iframe {
+	border: 0px;
+	max-width: 100%;
 }
+
 .graphic {
-    text-align: center;
-    max-width: 100%;
- }
+	text-align: center;
+	max-width: 100%;
+}
+
 a:visited {
-    color: #8045A3;
+	color: #8045A3;
 }
+
 a:hover {
-    color: #b4a494;
+	color: #b4a494;
 }
+
 .selected {
-    color: #b4a494;
+	color: #b4a494;
 }
 
 .centered {
-    text-align: center;
+	text-align: center;
 }
-
 
 /* Navigation */
-
 #navigation ul {
-    list-style: none;
-    margin: 0; padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    z-index: 10;
-    text-align: center;
-    display: block;
-    margin: 15px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: Mission, 'Times New Roman', Times, serif;
+	font-style: italic;
+	z-index: 10;
+	text-align: center;
+	display: block;
+	margin: 15px;
 }
+
 #navigation li {
-    font-size: 1.4em;
-    text-decoration: none;
-    margin-bottom: 20px;
-    display: inline;
-    margin: 0 10px;
+	font-size: 1.4em;
+	text-decoration: none;
+	margin-bottom: 20px;
+	display: inline;
+	margin: 0 10px;
 }
 
 /* RSVP Page */
-input, textarea {
-    margin: 5px;
-}
-.field {
-    width: 50%;
-}
-.field-email {
-    width: 150px;
-}
-.field-phone {
-    width: 100px;
-}
-.field-child-count {
-    width: 50px;
-} 
-.field-dietary {
-    width: 200px;
-}
-.field-caption {
-    font-size: .65em;
-    color: gray;
-    line-height: .3;
-    margin-left: 5px;
-}
-.label {
-    text-align: right;
-    text-transform: uppercase;
-    font-size: .70em;
-    font-weight: bold;
-    font-family: Helvetica, Arial, sans-serif;
-    color: #333;
-    vertical-align: top;
-    padding-top: 6px;
-    padding-left: 50px;
-} 
-.add-field {
-    cursor: pointer;
-    font-size: .8em;
-}
-.added {
-    content: '-';
+input,textarea {
+	margin: 5px;
 }
 
+.field {
+	width: 50%;
+}
+
+.field-email {
+	width: 150px;
+}
+
+.field-phone {
+	width: 100px;
+}
+
+.field-child-count {
+	width: 50px;
+}
+
+.field-dietary {
+	width: 200px;
+}
+
+.field-caption {
+	font-size: .65em;
+	color: gray;
+	line-height: .3;
+	margin-left: 5px;
+}
+
+.label {
+	text-align: right;
+	text-transform: uppercase;
+	font-size: .70em;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333;
+	vertical-align: top;
+	padding-top: 6px;
+	padding-left: 50px;
+}
+
+.add-field {
+	cursor: pointer;
+	font-size: .8em;
+}
+
+.added {
+	content: '-';
+}
 
 @media all and (min-width: 768px) {
     body {
-        font-family: Helvetica, Arial, sans-serif;
         font-size: 11pt;
         line-height: 1.3em;
         color: #222;
         background-color: whitesmoke;
-
         margin: 0;
         position: relative;
         text-align: center;
         width: 100%;
+        -ms-overflow-x: hidden;
         overflow-x: hidden;
     }
+
     #banner {
         font-size: 6em;
         text-align: center;
         color: rgba(200,187,173,.8);
         text-shadow: 1px 2px 2px rgba(255,255,255,0.5);
     }
+
     #content {
         width: 640px;
         background-color: white;
-        border-radius: 10px;
-        behavior: url(border-radius.htc);
-        padding: 30px;
+        border-radius: 2px;
+        padding:  30px;
+        -webkit-box-shadow:  2px 2px 5px rgba(0,0,0, 0.2);
         box-shadow: 2px 2px 5px rgba(0,0,0, 0.2);
         filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=5);
         display: inline-block;
         text-align: left;
     }
- 
+
     #footer {
         padding: 25px;
-
     }
+
     .bg {
         position: absolute;
         z-index: -5;
         background-repeat: no-repeat;
     }
+
     .couple {
-        left: 50%; margin-left: 230px; 
+        left: 50%;
+        margin-left: 230px;
         top: 80px;
-        width: 471px; height: 395px;
+        width: 471px;
+        height: 395px;
         background-image: url('couple.png');
     }
+
     .ithaca {
         background-image: url('ithaca.png');
-        right: 50%; margin-right: 150px;
-        width: 633px; height: 464px;
+        right: 50%;
+        margin-right: 150px;
+        width: 633px;
+        height: 464px;
         top: 350px;
     }
+
 }
 
 .hidden {
-    display: none;
+	display: none;
 }
