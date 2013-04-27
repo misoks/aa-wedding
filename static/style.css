@@ -35,9 +35,11 @@ h1 {
 
 h2 {
 	font-size: 1.5em;
+    margin-top: 1.2em;
+    margin-bottom: .5em;
 }
 
-h1,h2,h3,#navigation li,#navigation a {
+h1,h2,h3,.navigation li,.navigation a {
 	text-shadow: 2px 2px 1px rgba(255,255,255,0.5);
 }
 
@@ -72,6 +74,12 @@ img,iframe {
 	max-width: 100%;
 }
 
+.simple-map {
+    width: 40%;
+    float: left;
+    margin: 10px;
+}
+
 a:visited {
 	color: #8045A3;
 }
@@ -79,17 +87,25 @@ a:visited {
 a:hover {
 	color: #b4a494;
 }
-
 .selected {
 	color: #b4a494;
 }
-
 .centered {
 	text-align: center;
 }
+.footnote {
+    font-size: .75em;
+    line-height: 1.2;
+    float: left;
+    background-color: rgba(117, 77, 136,.1);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1.5em;
+    border-radius: 3px;
+}
 
 /* Navigation */
-#navigation ul {
+.navigation ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -101,7 +117,7 @@ a:hover {
 	margin: 15px;
 }
 
-#navigation li {
+.navigation li {
 	font-size: 1.4em;
 	text-decoration: none;
 	margin-bottom: 20px;
@@ -135,10 +151,11 @@ input,textarea {
 }
 
 .field-caption {
-	font-size: .65em;
+	font-size: .7em;
 	color: gray;
 	line-height: .3;
 	margin-left: 5px;
+	font-style: normal;
 }
 
 .label {
@@ -176,14 +193,14 @@ input,textarea {
         overflow-x: hidden;
     }
 
-    #banner {
+    .banner {
         font-size: 6em;
         text-align: center;
         color: rgba(200,187,173,.8);
         text-shadow: 1px 2px 2px rgba(255,255,255,0.5);
     }
 
-    #content {
+    .content {
         width: 640px;
         background-color: white;
         border-radius: 2px;
@@ -195,7 +212,7 @@ input,textarea {
         text-align: left;
     }
 
-    #footer {
+    .footer {
         padding: 25px;
     }
 

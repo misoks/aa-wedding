@@ -11,8 +11,7 @@
 </p>
 <p>
     The wedding and reception will take place at the 
-    <a href="http://www.jjande.com/www.JJandE.com/Home.html">John Joseph Inn and Elizabeth 
-    Restaurant</a>, which is approximately a 20-minute drive from downtown Ithaca. 
+    <a href="http://www.jjande.com/www.JJandE.com/Home.html">John Joseph Inn</a>, which is approximately a 20-minute drive from downtown Ithaca. 
 </p>
 
 <h2>Closest Hotels</h2>
@@ -24,13 +23,13 @@
     <a href="http://goo.gl/maps/ZYV2S">Map</a> - <a href="http://homewoodsuites3.hilton.com/en/hotels/new-york/homewood-suites-by-hilton-ithaca-ITHHWHW/index.html">Website</a>
 </p>
 <p class="hotel">
-    Courtyard Mariott<br>
+    Courtyard Marriott<br>
     (607) 330-1000<br>
     <a href="http://goo.gl/maps/eISku">Map</a> - <a href="http://www.marriott.com/hotels/maps/travel/ithcy-courtyard-ithaca/">Website</a>
 </p>
 
 <h2>Hotels in Downtown Ithaca</h2>
-<h4>Approx 18-20 minutes away from wedding venue</h4>
+<h4>Approx. 18-20 minutes away from wedding venue</h4>
 <p class="hotel">
     Hilton Garden Inn<br>
     (607) 277-8900<br>
@@ -65,7 +64,7 @@
     <a href="http://goo.gl/maps/hquQZ">Map</a> - <a href="http://www.comfortinn.com/hotel-ithaca-new_york-NY199">Website</a>
 </p>
 <p class="hotel">
-    Country Inns & Suites<br>
+    Country Inn & Suites<br>
     (607) 256-1100<br>
     <a href="http://goo.gl/maps/C1Bz1">Map</a> - <a href="http://www.countryinns.com/ithaca-hotel-ny-14850/nyithaca?s_cid=se.ggl.cis_cmp30">Website</a>
 </p>
