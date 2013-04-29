@@ -1,5 +1,5 @@
 <?php 
-        $name = 'RSVP';
+        $name = 'Reply';
         include_once('../header.php'); 
 ?>
 
@@ -20,14 +20,14 @@
 </script>
 
 
-<h1>RSVP</h1>
+<h1>Reply</h1>
     
     
 <?php
     if ( $_POST['attending'] == 'no' && isset($_POST['name']) ) {
         echo "<p>Thanks! We're sorry you won't be able to make it but sure you'll be there in spirit!</p>";
         $name = $_POST["name"];
-        $to = "cathy.a.fisher@gmail.com";            
+        $to = "fisher.cooper.wedding@gmail.com";            
         $subject = "RSVP from $name";
     
         mail($to, $subject, "$name will not be attending");

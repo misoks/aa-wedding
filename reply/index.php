@@ -1,8 +1,8 @@
 <?php 
-        $name = 'RSVP';
+        $name = 'Reply';
         include_once('../header.php'); 
 ?>
-    <h1>RSVP</h1>
+    <h1>Reply</h1>
     
         <p>
             Please use this form to let us know if you'll be able to attend our wedding.
