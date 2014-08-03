@@ -33,6 +33,7 @@ function navLink($url, $linktext) {
                 //echo "<li>".navLink('wedding.php', 'Wedding');
                 echo "<li>".navLink('lodging.php', 'Travel & Lodging');
                 echo "<li>".navLink('attractions.php', 'Area Attractions');
+                echo "<li>".navLink('restaurants.php', 'Restaurants');
                 echo "<li>".navLink('reply', 'Reply');
             ?>
             </ul>
